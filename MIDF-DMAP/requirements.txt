@@ -1,0 +1,12 @@
+rdkit==2023.9.1
+numpy==1.26.0
+gensim==4.3.1
+paddlepaddle>=2.0.0
+deepchem
+chembl_webresource_client
+scikit-learn
+mol2vec==0.2.2
+openpyxl
+
+#paddlepaddle==2.5.0 need protobuf required: >=3.1.0,<=3.20.2 ,but usually installed: 5.x.x
+#1.26.0 numpy and gensim==4.3.1 match, too low numpy may result in errors
